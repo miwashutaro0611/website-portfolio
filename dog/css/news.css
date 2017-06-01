@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+#newsmain{
+	width:900px;
+	/*height:150px;*/
+	margin:0 auto 40px;
+}
+
+#newsmain img{
+	width:100%;
+}
+
+#news_nav{
+	width:900px;
+	margin:0 auto 5px;
+}
+
+#news_nav ul li.all{
+	position: relative;
+	width:100%;
+	height:50px;
+	/*margin:15px 5px;*/
+	line-height: 50px;
+	box-sizing: border-box;
+}
+
+#news_nav ul li.list{
+	position: relative;
+	width:300px;
+	height:50px;
+	/*margin:15px 5px;*/
+	line-height: 50px;
+	box-sizing: border-box;
+}
+
+#news_nav ul li a{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+}
+
+#newsdetail{
+	width:900px;
+	margin:0 auto;
+}
+
+#newsdetail .waku{
+
+}
+
+#newsdetail .waku .image{
+	width:200px;
+	height:100px;
+	margin:15px 0;
+	background-color: #00f;
+}
+
+#newsdetail .waku .waku2{
+	width:700px;
+	padding:0 20px;
+	box-sizing: border-box;
+}
+
+#newsdetail .waku .waku2 h2{
+	margin:10px 0;
+}
+
+#newsdetail .waku .waku2 .category{
+	width:100px;
+	height:25px;
+	line-height: 25px;
+	border-radius: 10px;
+	margin:10px 0;
+	background-color: #fff;
+}
+
+#newsdetail .waku .waku2 .text{
+	line-height: 1.5;
+}
+
+#newsdetail hr{
+	border-top: 2px dotted #5f5d57;
+	margin:30px 0;
+}
+
+/************************** news api css*/
+#newsdetail .news_area .hosoku{
+	margin:0 0 15px;
+	font-size: 0.9em;
+}
+
+#newsdetail .news_area dl{
+	display: table;
+	margin:20px 0 0;
+	padding: 5px 10px 15px;
+	border-bottom: 3px dotted #5f5d57;
+	box-sizing: border-box;
+}
+
+#newsdetail .news_area dl .time{
+	display: table-cell;
+	vertical-align: middle;
+	width:20%;
+	font-size: 1.1em;
+	padding: 0 15px 0 0;
+	box-sizing: border-box;
+}
+
+#newsdetail .news_area dl .news_content{
+	display: table-cell;
+	width:80%;
+	font-size: 1.1em;
+	line-height: 1.3;
+}
+
+#newsdetail .news_area .text{
+	padding: 15px;
+	box-sizing: border-box;
+	line-height: 1.5;
+}
+
+#newsdetail .news_area .link{
+	padding:10px 5px;
+	border-bottom: 3px solid #5f5d57;
+	box-sizing: border-box;
+}
+
+#newsdetail .news_area .link a:hover{
+	text-decoration: underline;
+}
+
+/************************** ニュースの色 */
+
+.color0{
+	/*赤*/
+	border:3px solid #dfa465;
+}
+
+.color1{
+	/*赤*/
+	border:3px solid #f43d3d;
+}
+
+.color2{
+	/*黄色*/
+	border:3px solid #fcfc0b;
+}
+
+.color3{
+	/*緑*/
+	border:3px solid #46b760;
+}
+
+.color4{
+	/*青*/
+	border:3px solid #1420f7;
+}
+
+.color5{
+	/*黄緑*/
+	border:3px solid #0bff56;
+}
+
+.color6{
+	/*水色*/
+	border:3px solid #31dbf7;
+}
+
+.color0 a{
+	/*赤*/
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+.color1 a{
+	/*赤*/
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+.color2 a{
+	/*黄色*/
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+.color3 a{
+	/*緑*/
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+.color4 a{
+	/*青*/
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+.color5 a{
+	/*黄緑*/
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+.color6 a{
+	/*水色*/
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+.color0 a:hover{
+	/*赤*/
+	background-color:#dfa465;
+	color:#5f5d57;
+}
+
+.color1 a:hover{
+	/*赤*/
+	background-color:#f43d3d;
+	color:#5f5d57;
+}
+
+.color2 a:hover{
+	/*黄色*/
+	background-color:#fcfc0b;
+	color:#5f5d57;
+}
+
+.color3 a:hover{
+	/*緑*/
+	background-color:#46b760;
+	color:#5f5d57;
+}
+
+.color4 a:hover{
+	/*青*/
+	background-color:#1420f7;
+	color:#5f5d57;
+}
+
+.color5 a:hover{
+	/*黄緑*/
+	background-color:#0bff56;
+	color:#5f5d57;
+}
+
+.color6 a:hover{
+	/*水色*/
+	background-color:#31dbf7;
+	color:#5f5d57;
+}

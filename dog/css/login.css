@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+#login{
+	margin:10px 50px;
+}
+
+#login .box{
+	width:400px;
+	height:410px;
+	margin:0 20px;
+	border:3px solid #5f5d57;
+	border-radius: 10px;
+}
+
+#login .box .login_title{
+
+}
+
+#login .box h2{
+	font-size:1.3em;
+	padding:10px 5px 20px 20px;
+}
+
+#login .box .hosoku{
+	font-size:0.9em;
+	padding:18px 5px 5px 0;
+}
+
+
+#login .box h3{
+	padding:10px 30px 5px;
+}
+
+input{
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+#login .box #txt{
+	margin:10px 40px 15px;
+	padding:10px 15px;
+	width: 320px;
+	height:50px;
+	font-size:1.1em;
+	background: #fff;
+	border: 2px dashed #5f5d57;
+	box-sizing: border-box;
+	border-radius: 30px;
+}
+#login .box #pass{
+	margin:10px 40px 15px;
+	padding:10px 15px;
+	width: 320px;
+	height:50px;
+	font-size:1.3em;
+	background: #fff;
+	border: 2px dashed #5f5d57;
+	box-sizing: border-box;
+	border-radius: 30px;
+}
+
+#login .log .er{
+	height:30px;
+}
+
+#login .box .error{
+	font-size:0.9em;
+	color:#f00;
+	margin:0 10px 30px 15px;
+}
+
+/*#login .box #save{
+	margin:0 0 0 35px;
+}*/
+
+#login .box input#btn{
+	margin:5px 40px 20px;
+	width:320px;
+	height:40px;
+	background-color: #5f5d57;
+	color:#fff;
+	font-size:1.1em;
+	border-radius: 5px;
+	border:3px solid #5f5d57;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#login .new h2{
+	padding:10px 5px 30px 28px;
+}
+
+#login .new .img{
+	width:335px;
+	height:100px;
+	margin:0 0 0 27px;
+	border:5px solid #5f5d57;
+	border-radius: 5px;
+}
+#login .new .newtext{
+	margin:40px 35px  30px;
+	min-height: 65px;
+	line-height:1.4;
+}
+
+#login .box input#btn:hover{
+	color:#5f5d57;
+	background-color: #fff;
+}
+#login .box .botton{
+	margin:0 40px;
+	width:320px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #5f5d57;
+	color:#fff;
+	font-size:1.1em;
+	border-radius: 5px;
+	border:3px solid #5f5d57;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#login .new .botton:hover{
+	color:#5f5d57;
+	background-color: #fff;
+}
+
+.pt20{
+  padding-top: 20px;
+}
+
+.label-checkbox input[type="checkbox"]{
+  display: none;
+}
+.label-checkbox{
+  cursor: pointer;
+  position: relative;
+	margin: 0 65px;
+}
+.label-checkbox .lever{
+	height:40px;
+  display: block;
+  color: #5f5d57;
+  font-weight: normal;
+  display: inline-block;
+  padding: 10px 40px 0;
+  border: 1px solid #bcb7a8;
+  border-radius:40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+	box-sizing: border-box;
+  -webkit-transition: all 300ms cubic-bezier(1, 0, 0, 1);
+  -moz-transition: all 300ms cubic-bezier(1, 0, 0, 1);
+  -o-transition: all 300ms cubic-bezier(1, 0, 0, 1);
+  transition: all 300ms cubic-bezier(1, 0, 0, 1);
+  -webkit-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  -moz-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  -o-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+.label-checkbox .lever:before{
+  content:'';
+  position: absolute;
+  left: 0px;
+  top: -9px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius:100%;
+  -webkit-transition: all 300ms cubic-bezier(1, 0, 0, 1);
+  -moz-transition: all 300ms cubic-bezier(1, 0, 0, 1);
+  -o-transition: all 300ms cubic-bezier(1, 0, 0, 1);
+  transition: all 300ms cubic-bezier(1, 0, 0, 1);
+  -webkit-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  -moz-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  -o-transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+.label-checkbox:hover .lever:before{
+   border-color: #ddd;
+}
+.label-checkbox input[type="checkbox"]:checked + .lever{
+   background: #5cb85c;
+   color: #fff;
+}
+.label-checkbox input[type="checkbox"]:checked + .lever{
+   border-color:#5cb85c;
+}
+.label-checkbox input[type="checkbox"]:checked + .lever:before{
+   left: 100%;
+   margin-left: -46px;
+   border-color: #fff;
+}

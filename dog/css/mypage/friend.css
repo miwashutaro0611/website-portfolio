@@ -1,0 +1,331 @@
+@charset "utf-8";
+
+#mypets{
+	width:710px;
+}
+
+h2{
+	margin:0 15px;
+	font-size:1.1em;
+}
+
+h4{
+	margin:15px 0 5px;
+}
+
+#mypets ul{
+	width:700px;
+	margin:30px auto;
+}
+
+#mypets ul li{
+	width:150px;
+	background: #fff;
+	margin:10px 30px;
+	border: 5px solid #5f5d57;
+	border-radius: 10px;
+}
+
+#mypets ul li h3{
+	width:150px;
+	height:140px;
+	padding:15px 0 0;
+	background:#5f5d57; 
+}
+
+#mypets ul li h3 img{
+	border-radius: 150px;
+}
+
+#mypets ul li p{
+	padding:5px 0;
+}
+
+#mypets .nopet{
+	margin:40px 0 30px;
+	font-size:1.0em;
+}
+
+#mypets .nopetbtn{
+	position: relative;
+	width:200px;
+	height:40px;
+	line-height:40px;
+	margin:20px auto;
+	border-radius: 5px;
+	border:3px solid #5f5d57;
+}
+
+#mypets .nopetbtn a{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	color:#fff;
+	background-color: #5f5d57;
+	font-size:0.9em;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#mypets .nopetbtn a:hover{
+	color:#5f5d57;
+	background-color: #fff;
+}
+
+#myfriends{
+	width:710px;
+}
+
+#myfriends ul{
+	width:700px;
+	margin:30px auto;
+}
+
+#myfriends ul li{
+	width:150px;
+	background: #fff;
+	margin:10px 30px;
+	border: 5px solid #5f5d57;
+	border-radius: 10px;
+}
+
+#myfriends ul li h3{
+	width:150px;
+	height:140px;
+	padding:15px 0 0;
+	background:#5f5d57; 
+}
+
+#myfriends ul li h3 img{
+	border-radius: 150px;
+}
+
+#myfriends ul li p{
+	padding:5px 0;
+}
+
+#myfriends .no{
+	margin:40px 0 30px;
+	font-size:1.0em;
+}
+
+#myfriends .nobtn{
+	position: relative;
+	width:200px;
+	height:40px;
+	line-height:40px;
+	margin:20px auto;
+	border-radius: 5px;
+	border:3px solid #5f5d57;
+}
+
+#myfriends .nobtn a{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	color:#fff;
+	background-color: #5f5d57;
+	font-size:0.9em;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#myfriends .nobtn a:hover{
+	color:#5f5d57;
+	background-color: #fff;
+}
+
+#mystores{
+	width:710px;
+}
+
+#mystores ul{
+	width:700px;
+	margin:30px auto;
+}
+
+#mystores ul li{
+	width:700px;
+	background: #fff;
+	margin:10px 30px;
+	border: 5px solid #5f5d57;
+	border-radius: 10px;
+}
+
+#mystores ul li h3{
+	width:150px;
+	height:140px;
+	padding:15px 0 0;
+	border-right:5px solid #5f5d57; 
+}
+
+#mystores ul li h3 img{
+	border-radius: 150px;
+}
+
+#mystores ul li .waku{
+	position: relative;
+	width:500px;
+	height:140px;
+	padding:5px 20px 10px;
+}
+
+#mystores ul li h4{
+	margin:20px 0 5px;
+}
+
+#mystores ul li p{
+	padding:5px 10px;
+}
+
+#mystores ul li .store_janru{
+	font-size:0.8em;
+}
+
+#mystores ul li .l1{
+	position: absolute;
+	left:30px;
+	bottom:10px;
+	width:190px;
+	height:20px;
+	line-height:30px;
+	border:3px solid #5f5d57;
+	border-radius: 20px;
+}
+
+#mystores ul li .l2{
+	position: absolute;
+	right:30px;
+	bottom:10px;
+	width:190px;
+	height:20px;
+	line-height:30px;
+	border:3px solid #5f5d57;
+	border-radius: 20px;
+}
+
+#mystores ul li p a{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	color:#5f5d57;
+	background-color: #fff;
+	border-radius: 20px;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#mystores ul li p a:hover{
+	color:#fff;
+	background-color: #5f5d57;
+}
+
+
+#mystores .no{
+	margin:40px 0 30px;
+	font-size:1.0em;
+}
+
+#mystores .nobtn{
+	position: relative;
+	width:200px;
+	height:40px;
+	line-height:40px;
+	margin:20px auto;
+	border-radius: 5px;
+	border:3px solid #5f5d57;
+}
+
+#mystores .nobtn a{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	color:#fff;
+	background-color: #5f5d57;
+	font-size:0.9em;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#mystores .nobtn a:hover{
+	color:#5f5d57;
+	background-color: #fff;
+}
+
+/* ---------------------------------------------
+MODAL STYLE
+--------------------------------------------- */
+#modalContent{
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 960px;
+	min-height: 336px;
+	z-index: 99999;
+}
+
+#modalOverlay{
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 960px;
+	min-height: 336px;
+}
+
+#modalBox{
+	position: fixed;
+	width:500px;
+	height:500px;
+	padding: 36px;
+	background: #fff;
+}
+
+#modalPictureBox{
+	overflow: hidden;
+}
+
+#modalCloseBtn{
+	display: none;
+	position: absolute;
+	top: 0;
+	right: -38px;
+	width: 38px;
+	height: 38px;
+	background: url(../../img/btn_close.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+#modalLoading{
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 32px;
+	height: 32px;
+	margin: -16px 0 0 -16px;
+	/*background: url(../images/loading.gif) 0 0 no-repeat;*/
+}
+
+

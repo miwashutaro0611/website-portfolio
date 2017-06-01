@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+ /*使用フォント追加 */
+@font-face {
+	font-family: "Curls";
+	src:url("../fonts/Delicious Curls bold.ttf") format('woff'),
+	url("../fonts/Delicious Curls bold.ttf") format('truetype');
+}
+
+@font-face {
+	font-family: "amemuchigothic-r";
+	src:url("../fonts/amemuchigothic-r.ttf") format('woff'),
+	url("../fonts/amemuchigothic-r.ttf") format('truetype');
+}
+
+body{
+	font-family: amemuchigothic-r;
+	/*font-family:'ヒラギノ角ゴシック', 'Hiragino Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;*/
+}
+
+/* clearfix　回りこみ解除 */
+.cfx:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/* 左寄せ */
+.flL{
+	float: left;
+}
+/* 右寄せ */
+.flR{
+	float:right;
+}
+/* 文字左寄せ */
+.txL{
+	text-align: left;
+}
+/* 文字中央寄せ */
+.txC{
+	text-align: center;
+}
+/* 文字右寄せ */
+.txR{
+	text-align: right;
+}
+
+/*空白*/
+
+.tab1{
+	padding-left:20px;
+}
+
+.tab2{
+	padding-left:40px;
+}
+
+.tab3{
+	padding-left:60px;
+}
+
+/*liを横に並べる*/
+ul.cfx li{
+	float: left;
+}
+
+/*横線*/
+.line{
+	width:10%;
+	max-width: 100px;
+	height:3px;
+	margin: 0 auto;
+}
+
+/*背景固定*/
+.cd-fixed-bg {
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/*サブタイトル*/
+h2 span{
+	display: block;
+	font-size: 20px;
+	padding:30px 0 0;
+}
+
+@media (max-width: 767px) {
+	h2 span{
+		font-size: 15px;
+	}
+}

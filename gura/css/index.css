@@ -1,0 +1,1305 @@
+@charset "utf-8";
+
+
+/* ------------------------------コンテンツ pc */
+
+body{
+	font-family:'ヒラギノ角ゴシック', 'Hiragino Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+header{
+	background: url(../images/top_background.png) top center no-repeat;
+	background-size: 100% 100%;
+	padding:40px 0 0;
+	position: relative;
+	overflow: hidden;
+}
+
+header .logo{
+	position: relative;
+	z-index: 100;
+	width:50vw;
+	opacity: 0;
+}
+
+header h1{
+	position: relative;
+	z-index: 100;
+	width:32%;
+	margin:-4% 0% 2% 19%;
+	padding:1% 2%;
+	background-color: rgba(0,139,241,0.5);
+	font-size:1.5vw;
+	opacity: 0;
+	font-weight: normal;
+	line-height:1.4;
+	color:#fff;
+	border-radius: 10px;
+}
+
+header .twitter{
+	position: relative;
+	z-index: 110;
+	width:35vw;
+	margin:1% 0  1% 4%;
+	opacity: 0;
+	-moz-transition: -moz-transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: -o-transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -ms-transition: -ms-transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+header .key_visual{
+    position: absolute;
+	top: 0;
+	right: -3%;
+	z-index: 90;
+	height: 180%;
+	opacity: 0;
+}
+
+header .illust {
+	position: relative;
+	z-index: 100;
+	margin:17% 1% 1%;
+	color:#ff81ac;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	letter-spacing: 1.5px;
+	font-size:1.7vw;
+	text-shadow: #fff 0.15vw 0.15vw 0px, #fff -0.15vw 0.15vw 0px,
+             	 #fff 0.15vw -0.15vw 0px, #fff -0.15vw -0.15vw 0px,
+             	 #fff 0vw 0.2vw 0px, #fff -0.2vw 0vw 0px,
+             	 #fff 0.2vw 0vw 0px, #fff -0vw -0.2vw 0px;
+}
+
+#nav_btn{
+	display: none;
+}
+
+nav {
+	position: relative;
+	bottom:0;
+	width:100%;
+	z-index: 100;
+}
+
+nav ul{
+	max-width:1200px;
+	width:100%;
+	padding: 0 0 0 1%;
+	box-sizing: border-box;
+	margin:0 auto;
+}
+
+nav ul li{
+	position: relative;
+	width:calc(25% - 2%);
+	height:60px;
+	margin:2% 0 3% 1%;
+	background-color: rgba(255,129,172,0.95);
+	line-height:60px;
+	text-align: center;
+	border-radius: 10px;
+	font-size:1.7vw;
+	-moz-transition: -moz-background-color 0.3s linear;
+    -webkit-transition: -webkit-background-color 0.3s linear;
+    -o-transition: -o-background-color 0.3s linear;
+    -ms-transition: -ms-background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+
+nav ul li a{
+	color:#fff;
+	text-decoration: none;
+	position: absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#profile{
+	position: relative;
+	background: url(../images/top2.png) top left no-repeat;
+	background-size: auto 100%;
+	overflow: hidden;
+}
+
+#profile h2{
+	position: absolute;
+	top: 11%;
+	right: 29.5%;
+	z-index: 120;
+	font-size:2.8vw;
+	color:#fff;
+	transition: 0.6s;
+	transition-delay: 0.6s;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+#profile .main{
+	position: absolute;
+	z-index: 110;
+}
+
+#profile #main-image{
+	width: 50%;
+	top: 5%;
+	left:-6%;
+}
+
+#profile #character-sd{
+	width: 45%;
+	top: 15%;
+	left: -65%;
+}
+
+#profile .btn1{
+	position: relative;
+	z-index: 115;
+	cursor: pointer;
+	width:20vw;
+	font-size: 1.5vw !important;
+	margin:4% 0 8% 20% !important; 
+	padding:1% 1% 1% 8%; 
+	background: url(../images/profile_sd.png) top center no-repeat;
+	background-size: 100% auto;
+	box-sizing: border-box;
+}
+
+#profile .gurachan{
+	position: absolute;
+	z-index: 80;
+	top:2%;
+	right:0;
+	width:21vw;
+}
+
+#profile .char-wrapper{
+	width:45%;
+}
+
+#profile .char-fade-in{
+	transition: 0.6s;
+	transition-delay: 0.6s;
+}
+
+#profile .profile-fade-in{
+	transition: 0.6s;
+	transition-delay: 0.6s;
+}
+
+#profile .profile-wrapper{
+	position: relative;
+	z-index: 100;
+	background: url(../images/profile_about.png) center right no-repeat;
+	background-size: 100% 100%; 
+	width:55%;
+	height:100%;
+	padding:5.5% 0;
+	box-sizing: border-box;
+}
+
+#profile .profile-wrapper .profile-about{
+	margin: 15% 2% 2% 9%;
+	padding:1%;
+	background: rgba(222,92,139,0.5);
+	border-radius: 15px;
+}
+
+#profile .profile-wrapper ul{
+	margin:0 0 5%;
+}
+
+#profile .profile-wrapper ul li{
+	list-style-image: url('../images/profile_list.png');
+	list-style-position: inside;
+	color:#fff;
+	padding: 0.625% 0;
+    margin: 0;
+	font-size:1.06vw;
+}
+
+#profile .profile-wrapper p{
+	margin:0 0 5%;
+	color:#fff;
+	font-size:1vw;
+	line-height:1.7;
+}
+
+#profile .profile-wrapper p:last-child{
+	margin:0;
+}
+
+#campaign{
+	position: relative;
+	background: url(../images/campaign_background.png) top center no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	overflow: hidden;
+}
+
+#campaign .left_wrapper{
+	width:50%;
+	height:10%;
+}
+
+#campaign .left_wrapper .button_icon{
+	position: absolute;
+	bottom:-45%;
+	left: 88%;
+	width: 10vw;
+	transition: 1s;
+	transition-delay: 1s;
+	z-index: 150;
+}
+
+#campaign .left_wrapper h2{
+	margin:19% 3% 2% 6%;
+	padding:0 0 0 2%;
+	line-height:1.4;
+	font-size:3.6vw;
+	color:#039be5;
+	letter-spacing: 0.3vw;
+    text-shadow:
+		-0.16vw -0.16vw #fff,
+		0.16vw -0.16vw #fff,
+		-0.16vw 0.16vw #fff,
+		0.16vw 0.16vw #fff,
+		-0.2vw 0vw #fff,
+		0vw -0.2vw #fff,
+		0vw 0.2vw #fff,
+		0.2vw 0vw #fff;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+    box-sizing: border-box;
+    background: url(../images/title_line1.png) bottom center no-repeat;
+	background-size: 100% auto;
+}
+
+#campaign .left_wrapper .icon{
+	width: 5vw;
+	margin: -5% 0 0 3%;
+}
+
+#campaign .left_wrapper .form_wrapper{
+	width:100%;
+	padding:0 0 0 10%;
+	box-sizing: border-box;
+}
+
+#campaign .left_wrapper .form_wrapper .form_left{
+	width:54%;
+	margin:2% 0 0;
+}
+
+#campaign .left_wrapper .form_wrapper .form_left .hosoku{
+	color:#fff;
+	font-size:1.15vw;
+}
+
+#campaign .left_wrapper .form_wrapper .form_left .application{
+	background: rgba(0,0,0,0.3);
+	color:#fff;
+	margin:3% 0 0;
+	padding:2%;
+	width:80%;
+	box-sizing: border-box;
+}
+
+#campaign .left_wrapper .form_wrapper .form_left .application .wrapper1{
+	border:2px solid #fff;
+	height:100%;
+	padding:0.4vw;
+	box-sizing: border-box;
+}
+
+#campaign .left_wrapper .form_wrapper .form_left .application .wrapper1 p{
+	font-size:1.8vw;
+
+	letter-spacing: 0.2vw;
+}
+
+#campaign .left_wrapper .form_wrapper .form_left .application .wrapper2{
+	padding:0 5%;
+	box-sizing: border-box;
+}
+
+#campaign .left_wrapper .form_wrapper .form_left .application .wrapper2 p{
+	padding:1% 0;
+	font-size:1.1vw;
+}
+
+#campaign .left_wrapper .form_wrapper .form_right{
+	width:46%;
+}
+
+#campaign .left_wrapper .text{
+	color:#fff;
+	font-weight: normal;
+	font-size:2vw;
+}
+
+
+
+#campaign .left_wrapper input[type=text]{
+	width:100%;
+	margin:3% 0 0.5%;
+	padding:3%;
+	font-size:2vw;
+	color:#000;
+	box-sizing: border-box;
+}
+
+#campaign .left_wrapper button[type=submit]{
+	position: relative;
+	z-index: 115;
+	border:0;
+	background:url(../images/campaign_oubobtn.png) top center no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	margin:8% 0 0;
+	padding:12% 0;
+	font-size: 1.8vw;
+	color:#fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#campaign .left_wrapper .hash_area{
+	width:90%;
+	margin:0 0 0 10%;
+	color:#fff;
+	font-size:1vw;
+}
+
+.hash_text{
+	margin:1% 1% 0 0;
+	padding:1%;
+	line-height:1.5;
+	font-size:1.25vw;
+	background: #3f96e4;
+	border-radius: 20px;
+}
+
+#campaign .left_wrapper ul{
+	margin:0 0 0 3%;
+	padding: 1% 19% 2% 9%;
+	box-sizing: border-box;
+}
+
+#campaign .left_wrapper ul li{
+	color:#fff;
+	font-size:0.6vw;
+	line-height:1.8;
+	 padding-left: 1em;
+    text-indent: -1em;
+}
+
+#campaign .right_wrapper{
+	width:50%;
+	position: relative;
+	background: url(../images/star.png) top center no-repeat;
+	background-size: 100% 100%;
+}
+
+#campaign .right_wrapper .image1{
+	position: absolute;
+	bottom:5%;
+	right:-75%;
+	z-index: 90;
+	width:38vw;
+}
+
+#campaign .right_wrapper .image2{
+	position: relative;
+	z-index: 100;
+	width: 15vw;
+	margin-top:25%;
+	margin-left:120%;
+}
+
+#campaign .right_wrapper .image3{
+	position: relative;
+	right:0;
+	z-index: 100;
+	width: 35vw;
+	margin-top:22%;
+	margin-bottom:8%;
+	margin-left:120%;
+}
+
+
+#tweet{
+	background:#fff url(../images/feed_background.png) top right no-repeat;
+	background-size: 100% auto;
+	margin:-3px 0 0;
+	padding:3% 0 2%;
+	position: relative;
+}
+
+#tweet .text{
+	line-height:2.0;
+	color:#333;
+	font-size: 1.7vw;
+}
+
+#tweet h2{
+	width:36%;
+	height:21%;
+	margin:2% 5%;
+	color:#16a6fc;
+	font-size: 3.2vw;
+	line-height:1.3;
+	font-weight: bold;
+	box-sizing: border-box;
+	letter-spacing: 0.5vw;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+    text-shadow:
+		-0.13vw -0.13vw #fff,
+		0.13vw -0.13vw #fff,
+		-0.13vw 0.13vw #fff,
+		0.13vw 0.13vw #fff,
+		-0.18vw 0vw #fff,
+		0vw -0.18vw #fff,
+		0vw 0.18vw #fff,
+		0.18vw 0vw #fff
+		;
+}
+
+#tweet h2 .line{
+	padding:0 0 1% 2%;
+	background: url(../images/title_line2.png) bottom center no-repeat;
+	background-size: 100% auto;
+}
+
+#tweet h3{
+	background: url(../images/feed_fukidashi.png) no-repeat;
+	background-size: 100% auto;
+	width:40%;
+	height:21%;
+	position: absolute;
+	top:10%;
+	right:20%;
+	margin:0 5%;
+	color:#fff;
+	font-size: 2.2vw;
+	padding:2% 3% 3%;
+	font-weight: normal;
+	box-sizing: border-box;
+	transition: 0.6s;
+	transition-delay: 0.6s;
+}
+
+#tweet .image1{
+	width:3vw;
+	margin:0 0 0 3%;
+}
+
+#tweet .image2{
+	width:3vw;
+	margin:0 0 3% 1%;
+}
+
+#tweet .tweet-wrapper{
+	width:45%;
+	height:27vw;
+	overflow: hidden;
+	margin:3% 0 0 5%;
+}
+
+#tweet .btn{
+	position: relative;
+	background: url(../images/feed_accountbtn.png) top center no-repeat;
+	background-size: 100% 100%;
+	width:30%;
+	margin:2% 5%;
+	padding:4% 0;
+}
+
+#tweet .btn a{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	line-height:400%;
+	color:#fff;
+	font-weight: bold;
+	font-size: 2vw;
+	text-decoration: none;
+}
+
+#tweet .button_icon{
+	position: absolute;
+	right: -20%;
+	width: 10vw;
+	transition: 1s;
+	transition-delay: 1s;
+}
+
+footer{
+	padding:0;
+	overflow: hidden;
+}
+
+footer .link{
+	background: url(../images/link_back.png) top center;
+	width:100%;
+}
+
+footer .link ul{
+	max-width:1200px;
+	width:90%;
+	margin:0 auto;
+	padding:4% 0;
+}
+
+footer .link ul li{
+	position: relative;
+	width:30%;
+	font-size:1.1vw;
+	padding:11% 0 11%;
+	margin:0 5% 0 0;
+	border-radius: 10px;
+}
+
+footer .link ul li:nth-child(3){
+	margin:0;
+}
+
+footer .link ul li a{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	color:#fff;
+	text-decoration: none;
+	padding:29% 0 25%;
+	border-radius: 10px;
+	box-sizing: border-box;
+	-moz-transition: -moz-opacity 0.4s ease-in-out,transform 0.4s ease-in-out;
+    -webkit-transition: -webkit-opacity 0.4s ease-in-out,transform 0.4s ease-in-out;
+    -o-transition: -o-opacity 0.4s ease-in-out,transform 0.4s ease-in-out;
+    -ms-transition: -ms-opacity 0.4s ease-in-out,transform 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out,transform 0.4s ease-in-out;
+}
+
+footer .link ul .list1 a{
+	background:url(../images/link_art.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+footer .link ul .list2 a{
+	background:url(../images/link_blog.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+footer .link ul .list3 a{
+	background:url(../images/link_official.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+footer .fnavi{
+	background:#fb79b2;
+}
+
+footer .fnavi ul{
+	width:100%;
+	max-width:1000px;
+	text-align: center;
+	margin:0 auto;
+}
+
+footer .fnavi ul li{
+	position: relative;
+	width: calc(25% - 2px);
+	height:70px;
+	line-height: 70px;
+	margin:0 0 0 1px;
+	font-size:1.5vw;
+	text-align: center;
+	-moz-transition: -moz-background-color 0.3s linear;
+    -webkit-transition: -webkit-background-color 0.3s linear;
+    -o-transition: -o-background-color 0.3s linear;
+    -ms-transition: -ms-background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+
+footer .fnavi ul li:last-child{
+	width: 25%;
+}
+
+footer .fnavi ul li a{
+	color:#fff;
+	text-decoration: none;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+footer .fnavi ul li a span{
+	display: inline-block;
+    border-right:1px solid #fff;
+    width: 100%;
+    height:20px;
+    line-height:20px;
+}
+
+footer .copyright{
+	color:#fff;
+	font-size:12px;
+	background:#fa6aa9;
+	width:100%;
+	padding:20px 0;
+}
+
+/* ########### 767px以上になったら(pcホバー一覧) ########### */
+@media screen and (min-width: 768px) {
+
+.btn1,.btn a,button{
+	-moz-transition: -moz-opacity 0.3s ease-in-out;
+    -webkit-transition: -webkit-opacity 0.3s ease-in-out;
+    -o-transition: -o-opacity 0.3s ease-in-out;
+    -ms-transition: -ms-opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.btn1:hover,.btn a:hover,button:hover{
+	opacity: 0.8;
+}
+
+header .twitter:hover{
+	-webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+nav ul li:hover{
+	background-color: rgba(255,129,172,0.8);
+}
+
+footer .link ul li:hover a {
+	opacity: 0.8;
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    -ms-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+    -moz-transition: -moz-opacity 0.3s ease-in-out,transform 0.3s ease-in-out;
+    -webkit-transition: -webkit-opacity 0.3s ease-in-out,transform 0.3s ease-in-out;
+    -o-transition: -o-opacity 0.3s ease-in-out,transform 0.3s ease-in-out;
+    -ms-transition: -ms-opacity 0.3s ease-in-out,transform 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out,transform 0.3s ease-in-out;
+}
+
+footer .fnavi ul li:hover{
+	background-color: rgba(243,163,198,0.6);
+}
+
+footer .fnavi ul li a:hover{
+	opacity: 1;
+}
+
+
+
+}
+
+/* ########### 767px以下になったら(スマホサイズ) ########### */
+@media screen and (max-width: 767px) {
+
+header{
+	background: url(../images/sp_top01.png) top center no-repeat;
+	background-size: 100% auto;
+	padding: 70% 0 0;
+}
+
+header .logo{
+	width: 100%;
+	left: 0%;
+}
+
+header h1{
+	width:90%;
+	margin:1% 5%;
+	padding:3%;
+	font-size:4vw;
+	box-sizing: border-box;
+	text-shadow: none;
+}
+
+header .twitter{
+	width:90%;
+	margin:5% 5% 0;
+}
+
+header .key_visual{
+	top: 3%;
+	right: -17%;
+	height: 222vw;
+}
+
+header .illust {
+	font-size:4vw;
+	margin:1%;
+	text-shadow: #fff 0.2vw 0.2vw 0px, #fff -0.2vw 0.2vw 0px, 
+				 #fff 0.2vw -0.2vw 0px, #fff -0.2vw -0.2vw 0px;}
+
+/************ ハンバーガーここから ******************/
+
+#nav_btn{
+	position: absolute;
+	top:3%;
+	left: 5%;
+	cursor: pointer;
+	z-index: 200;
+	background: #1e90eb;
+	border-radius: 5px;
+}
+
+#nav_btn,
+.menu-trigger,
+.menu-trigger span {
+	display: inline-block;
+	transition: all .3s;
+	box-sizing: border-box;
+}
+.menu-trigger {
+	position: relative;
+	width: 12vw;
+	height: 12vw;
+}
+.menu-trigger span {
+	position: absolute;
+left: 10%;
+width: 80%;
+height: 1vw;
+background-color: #fff;
+border-radius: 4px;
+}
+.menu-trigger span:nth-of-type(1) {
+	top: 19%;
+}
+.menu-trigger span:nth-of-type(2) {
+	top: 45%;
+}
+.menu-trigger span:nth-of-type(3) {
+	bottom: 20%;
+}
+.menu-trigger.active span:nth-of-type(1) {
+	-webkit-transform: translateY(3vw) rotate(-45deg);
+	transform: translateY(3vw) rotate(-45deg);
+}
+.menu-trigger.active span:nth-of-type(2) {
+	opacity: 0;
+}
+.menu-trigger.active span:nth-of-type(3) {
+	-webkit-transform: translateY(-3vw) rotate(45deg);
+	transform: translateY(-3vw) rotate(45deg);
+}
+/************ ハンバーガーここまで ******************/
+
+
+nav{
+	display: none;
+	position: absolute;
+	top:0;
+	bottom:auto;
+	z-index: 190;
+}
+
+nav ul{
+	padding:20% 0 0;
+	background: rgba(255,255,255,0.95);
+}
+
+nav ul li{
+	width:100%;
+	height:80px;
+	line-height:80px;
+	margin:0;
+	font-size:3.8vw;
+	background: none;
+	-moz-transition: -moz-background-color 0.3s linear;
+    -webkit-transition: -webkit-background-color 0.3s linear;
+    -o-transition: -o-background-color 0.3s linear;
+    -ms-transition: -ms-background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+
+nav ul li a{
+	color:#fb79b2;
+}
+
+nav ul li a span{
+	display: inline-block;
+    border-bottom:1px solid #fb79b2;
+    width: 70%;
+    margin:0 15%;
+    height:calc(100% - 1px);
+}
+
+
+#profile{
+	background: url(../images/sp_top02.png) top center no-repeat;
+	background-size: 100% auto;
+}
+
+#profile h2{
+	position: absolute;
+	top: 11%;
+	right: 29.5%;
+	z-index: 120;
+	font-size:2.8vw;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+#profile h2{
+	top: 10.5%;
+	right: 21.5%;
+	font-size: 5.2vw;
+}
+
+#profile .main{
+	width: 90%;
+	z-index: 80;
+}
+
+#profile #main-image{
+	width: 90%;
+	left: -35%;
+}
+
+#profile #character-sd{
+	width: 60%;
+	left: -60%;
+	top: 32%;
+}
+
+#profile .btn1{
+	width: 50vw !important;
+	font-size: 4vw !important;
+	margin:14% 0 8% !important; 
+	padding:2% 1% 2% 20%;
+}
+
+#profile .gurachan{
+	display: none;
+}
+
+#profile .profile-wrapper{
+	background: none;
+	padding: 5.5% 0 11%;
+}
+
+#profile .profile-wrapper .profile-about {
+    margin: 50% 7% 2% -14%;
+    padding: 2%;
+    border-radius: 15px;
+    z-index: 120;
+}
+
+#profile .profile-wrapper ul{
+	margin:5% 1% 10%;
+}
+
+#profile .profile-wrapper ul li{
+	list-style-image: none;
+	margin: 3% 0;
+	font-size: 2.7vw;
+	line-height:1.5;
+}
+
+#profile .profile-wrapper p{
+	width: 90%;
+	margin: 1% 1% 5%;
+	font-size: 2.7vw;
+}
+
+#profile .profile-wrapper p:last-child{
+	margin: 1% 0;
+}
+
+
+#campaign{
+	background: url(../images/sp_top03.png) top center no-repeat;
+	background-size: 100% 100%;
+	padding:18% 0 0;
+}
+
+#campaign .left_wrapper{
+	width:98%;
+	margin:0 1%;
+}
+
+#campaign .left_wrapper .button_icon{
+	top: 24%;
+    width: 20vw;
+}
+
+#campaign .left_wrapper h2{
+	margin:0;
+	padding:0 3% 15%;
+	font-size:7.6vw;
+	color:#0287e0;
+	text-align: center;
+	background: none;
+    text-shadow:
+		-0.23vw -0.23vw #fff,
+		0.23vw -0.23vw #fff,
+		-0.23vw 0.23vw #fff,
+		0.23vw 0.23vw #fff,
+		-0.3vw 0vw #fff,
+		0vw -0.3vw #fff,
+		0vw 0.3vw #fff,
+		0.3vw 0vw #fff;
+}
+
+#campaign .left_wrapper .icon{
+	width: 10vw;
+	margin: 0;
+	position: absolute;
+	top: 1%;
+	right: 45%;
+}
+
+#campaign .left_wrapper .form_wrapper{
+	padding:0;
+}
+
+#campaign .left_wrapper .form_wrapper .form_left{
+	width:100%;
+	margin:2% 0 0;
+}
+
+#campaign .left_wrapper .form_wrapper .form_left .hosoku{
+	font-size:3.5vw;
+	text-align: center;
+}
+
+#campaign .left_wrapper .form_wrapper .form_left .application{
+	margin:3% auto 0;
+	padding:4%;
+	width:75%;
+}
+
+#campaign .left_wrapper .form_wrapper .form_left .application .wrapper1{
+	padding:2vw;
+}
+
+#campaign .left_wrapper .form_wrapper .form_left .application .wrapper1 p{
+	font-size: 5.5vw;
+	letter-spacing: 1vw;
+	line-height: 1.3;
+}
+
+#campaign .left_wrapper .form_wrapper .form_left .application .wrapper2 p{
+	font-size:5.2vw;
+	letter-spacing: 0.5vw;
+}
+
+#campaign .left_wrapper .form_wrapper .form_right{
+	width:80%;
+	margin:0 10%;
+}
+
+#campaign .left_wrapper .text{
+	font-size:6vw;
+	text-align: center;
+	letter-spacing: 0.5vw;
+	line-height:1.5;
+}
+
+
+
+#campaign .left_wrapper input[type=text]{
+	width:90%;
+	margin:3% 5% 0.5%;
+	padding:5% 3%;
+	font-size:4vw;
+}
+
+#campaign .left_wrapper button[type=submit]{
+	margin:5% 0 0;
+	padding:8% 0;
+	font-size: 6vw;
+}
+
+#campaign .left_wrapper .hash_area{
+	width:90%;
+	margin:3% auto;
+	color:#fff;
+	font-size:3.8vw;
+	text-align: center;
+}
+
+.hash_text{
+	margin:2% 0;
+	padding:1%;
+	line-height:1.5;
+	font-size:4.5vw;
+	background: #3f96e4;
+	border-radius: 40px;
+}
+
+#campaign .left_wrapper ul{
+	margin: 165% 0 24%;
+	padding:3%;
+	background: rgba(0,0,0,0.3);
+	width:100%;
+}
+
+#campaign .left_wrapper ul li{
+	font-size:3.2vw;
+	margin:0 0 1%;
+}
+
+#campaign .right_wrapper{
+	width: 100%;
+	position: absolute;
+	top: 35%;
+	left: 0;
+}
+
+#campaign .right_wrapper .image1{
+	top:0;
+	right: 0;
+	width: 100vw;
+}
+
+#campaign .right_wrapper .image2{
+    width: 33vw;
+    margin: 29% 0 0 65%;
+}
+
+#campaign .right_wrapper .image3{
+	width: 80vw;
+    margin: 35% 0 0 10%;
+}
+
+#tweet{
+	background:#fff url(../images/sp_top04.png) bottom right no-repeat;
+	background-size: 100% auto;
+	padding:20% 0 2%;
+}
+
+#tweet h2{
+	width:90%;
+	margin:2% 5% 10%;
+	font-size: 9vw;
+	text-align: center;
+	letter-spacing: 0.5vw;
+	text-shadow: -0.4vw -0.4vw #fff,
+		 0.4vw -0.4vw #fff,
+		 -0.4vw 0.4vw #fff,
+		 0.4vw 0.4vw #fff,
+		 -0.45vw 0vw #fff,
+		 0vw -0.45vw #fff,
+		 0vw 0.45vw #fff,
+		 0.45vw 0vw #fff;
+		}
+
+#tweet h3{
+	background: url(../images/sp_feed_fukidashi.png) no-repeat;
+	background-size: 100% auto;
+	width: 60%;
+	position: relative;
+	top: 0;
+	right: 0;
+	margin: 25% 5% 0;
+	font-size: 5.5vw;
+	padding: 6% 3% 12%;
+	line-height: 1.7;
+}
+
+#tweet .image1{
+	width:10vw;
+	margin:0;
+	position: absolute;
+	top:3%;
+	left: 45%;
+}
+
+#tweet .image2{
+	width:5vw;
+	margin:0 0 3% 1%;
+}
+
+#tweet .tweet-wrapper{
+	width:90%;
+	margin:0 5%;
+	height:330px;
+}
+
+#tweet .btn{
+	width:90%;
+	margin:57% 5% 2%;
+	padding:11.5% 0;
+}
+
+#tweet .btn a{
+	font-size: 6vw;
+}
+
+#tweet .button_icon{
+	bottom: 1%;
+	left: auto;
+	right:-5%;
+	width: 25vw;
+}
+
+footer .link{
+	background: #fff;
+	background-size: 100% auto;
+	width:100%;
+}
+
+footer .link ul{
+	margin: 10% auto;
+}
+
+footer .link ul li{
+	width:100%;
+	font-size:4vw;
+	padding:15% 0 32%;
+	box-sizing: border-box;
+	margin:0 5% 5% 0;
+	border-radius: 0;
+}
+
+footer .link ul li:nth-child(3){
+	margin:0;
+}
+
+footer .link ul li a{
+	padding:17.5% 0 7.5%;
+	border-radius: 0;
+}
+
+footer .link ul .list1 a{
+	background:url(../images/sp_link01.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+footer .link ul .list2 a{
+	background:url(../images/sp_link02.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+footer .link ul .list3 a{
+	background:url(../images/sp_link03.png) center center no-repeat;
+	background-size: 100% auto;
+}
+
+footer .fnavi ul li{
+	width:100%;
+	height:auto;
+	padding:10% 0;
+	line-height:600%;
+	font-size:3.5vw;
+}
+footer .fnavi ul li:last-child {
+    width: 100%;
+}
+
+footer .fnavi ul li a span{
+	border-right: 0;
+	border-bottom:1px solid #f8aecf;
+	width:70%;
+	height:calc(100% - 1px);
+	line-height:600%;
+}
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+
+#campaign .left_wrapper .form_wrapper .form_left .hosoku {
+    font-size: 10px;
+    transform: scale(0.9);
+    width:110%;
+    line-height:1.3;
+}
+
+#campaign .left_wrapper ul {
+    margin: 1% 23% 1% -11%;
+    padding: 0;
+    line-height:1.4;
+}
+
+#campaign .left_wrapper ul li {
+	width:120%;
+	margin:0 0 -1.2%;
+    font-size: 10px;
+    transform: scale(0.6);
+    line-height:1.2;
+}
+	@media screen and (min-width: 1000px){
+
+	#campaign .left_wrapper ul li {
+		width:87%;
+		margin:0 0 0 19%;
+	    font-size: 10px;
+	    transform: scale(0.9);
+	    line-height:1.2;
+	}
+
+	}
+
+}
+
+@media screen and (min-width: 1000px) {
+
+footer .fnavi ul li{
+	font-size:17px;
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+
+nav ul li{
+
+	font-size:20px;
+}
+
+footer .link ul li{
+	font-size:16px;
+}
+
+}
+
+@media screen and (max-width: 350px) {
+
+#profile h2 {
+    top: 11%;
+}
+
+#profile .profile-wrapper {
+    padding:5.5% 0 11%;
+}
+
+#profile .profile-wrapper .profile-about {
+    margin: 50% 7% 2% -19%;
+}
+
+#profile .profile-wrapper ul{
+	margin:3% 1%;
+}
+
+#profile .profile-wrapper ul li{
+	margin:0 0 0.5%;
+}
+
+#profile .profile-wrapper p {
+    width: 95%;
+    //margin: 0 !important;
+}
+
+}

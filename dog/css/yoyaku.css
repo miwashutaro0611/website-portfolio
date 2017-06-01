@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* clearfix　回りこみ解除 */
+.cfx:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/* 左寄せ */
+.flL{
+	float: left;
+}
+/* 右寄せ */
+.flR{
+	float:right;
+}
+/* 文字左寄せ */
+.txL{
+	text-align: left;
+}
+/* 文字中央寄せ */
+.txC{
+	text-align: center;
+}
+/* 文字右寄せ */
+.txR{
+	text-align: right;
+}
+/* 青色 */
+.blue{
+	color:#00f;
+}
+

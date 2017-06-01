@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+body{
+	background-color: #f8f6f3;
+	position: relative;
+	z-index: -100;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+a:hover{
+	opacity: 0.8;
+	-webkit-transition:opacity 0.6s linear;
+	-moz-transition:opacity 0.6s linear;
+	-ms-transition:opacity 0.6s linear;
+	-o-transition:opacity 0.6s linear;
+	transition:opacity 0.6s linear;
+}
+
+
+
+
+#wrap{
+	margin:0 auto;
+	background-color: #f8f6f3;
+	position: relative;
+	z-index: -75;
+}
+
+#top{
+	width:1000px;
+	margin: 0 auto;
+}
+
+header{
+	width:200px;
+	height:100px;
+}
+nav#top_nav{
+	width:800px;
+	height:100px;
+}
+
+nav#top_nav #font{
+	height:20px;
+	padding:15px 0 10px 412px;
+}
+nav#top_nav #font p{
+	padding: 10px 3px;
+	margin:0 2px;
+	height:20px;
+	color:#5f5d57;
+}
+nav#top_nav #font p a{
+	color:#5f5d57;
+	border:2px solid #5f5d57;
+	background-color: rgba(224,200,175,0.4);
+	padding:7px 2px;
+	border-radius: 5px
+}
+
+nav#top_nav #font ul{
+	margin:0 20px 0 0;
+}
+
+nav#top_nav #font ul li{
+	width:16px;
+	height:16px;
+	margin:0 5px;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #e0c8af;
+	color:#353330;
+	border-radius: 3px;
+}
+nav#top_nav #font ul li:hover{
+	background-color: #ccb9aa;
+}
+nav#top_nav #font ul li.active{
+	background-color: #a59584;
+}
+
+nav#top_nav #gnavi{
+	height:50px;
+}
+
+nav#top_nav #gnavi ul li a{
+	line-height: 65px;
+	padding:5px;
+	margin:0 60px;
+	font-size: 16px;
+	color:#5f5d57;
+}
+
+
+article{
+	width:1000px;
+	margin:0 auto;
+	clear:both;
+	color:#5f5d57;
+}
+
+footer {
+	font-size:0.9em;
+}
+footer nav#fnavi{
+	width:1000px;
+	border-bottom: 5px solid color:#5f5d57;
+	margin:30px auto 10px;
+}
+footer nav#fnavi ul{
+
+}
+
+footer nav#fnavi ul li{
+	padding: 0 5px;
+}
+
+footer nav#fnavi ul li a{
+	margin:0 4px;
+	color:#5f5d57;
+
+}
+footer nav#fnavi ul .bo:after{
+	padding:5px;
+	content:"|";
+	color:#5f5d57;
+
+}
+footer nav#fnavi p{
+	position: relative;
+}
+footer nav#fnavi p a{
+	color:#5f5d57;
+	position: absolute;
+	right: 15px;
+	padding: 5px;
+}
+
+footer p{
+	width:1000px;
+	margin:5px auto;
+	color:#5f5d57;
+}
+
+.panlist{
+	width:100%;
+	border-top: 5px solid #5f5d57;
+	margin:0 0 20px;
+	clear:both;
+}
+
+.pankuzu{
+	width:1000px;
+	padding:0 10px;
+	margin:10px auto 8px;
+}
+.pankuzu li{
+	padding:0 10px;
+	color:#5f5d57;
+}
+
+.pankuzu li a{
+	color:#5f5d57;
+	text-decoration: underline;
+}
+
+.pankuzu span{
+	color:#5f5d57;
+}
+
+.pankuzu li a:hover{
+	text-decoration: none;
+}
+
+/*マイページペット情報*/
+#my_info{
+	width:230px;
+	margin:15px 20px;
+	background-color: #fff;
+	border:5px solid #5f5d57;
+	border-radius: 10px;
+}
+
+#my_info .img{
+	padding:15px 15px;
+	width:200px;
+	height:200px;
+	background-color: #5f5d57;
+}
+
+#my_info .img img{
+	border-radius: 200px;
+}
+
+#my_info .petname{
+	font-size:1.2em;
+	padding:15px 0 0;
+}
+
+#my_info .pet_ken{
+	font-size:0.9em;
+	padding:15px 0 0;
+}
+
+#my_info .more{
+	font-size: 0.9em;
+	padding:10px 0;
+}
+
+/*マイページナビ*/
+#mypage_navi{
+
+}
+
+#mypage_navi ul{
+	margin:0 0 50px;
+}
+
+#mypage_navi ul li{
+	position: relative;
+	margin:10px 20px;
+	width:230px;
+	height:40px;
+	line-height: 40px;
+	border:3px solid #5f5d57;
+	border-radius: 10px;
+}
+
+#mypage_navi ul li a{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	color:#5f5d57;
+	background-color: #fff;
+	border-radius: 7px;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#mypage_navi ul li a:hover{
+	color:#fff;
+	background-color: #5f5d57;
+}
+
+#mypage_navi p{
+	position: relative;
+	width:230px;
+	height:40px;
+	margin:10px 20px;
+	line-height: 40px;
+	border:3px solid #5f5d57;
+	border-radius: 10px;
+}
+
+#mypage_navi p a{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	color:#fff;
+	background-color: #5f5d57;
+	border-radius: 6px;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#mypage_navi p a span{
+	position: absolute;
+	top:0;
+	left:20px;
+	font-weight: bold;
+}
+
+#mypage_navi p a:hover{
+	color:#5f5d57;
+	background-color: #fff;
+}
+
+/*画像プラグイン*/
+
+.myPic
+{
+	/*margin:10px;*/
+	border-radius:50%;
+	margin:auto;
+	/*border:1px solid #ccc;*/
+}

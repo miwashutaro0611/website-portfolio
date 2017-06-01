@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* 使用フォント追加(ふんわりラウンド) */
+@font-face {
+	font-family: 'hunwarifont';
+	src: local('hunwarifont'), 
+	local('hunwarifont'), 
+	url('../fonts/funwari-round.otf') format('opentype');
+}
+
+/* 使用フォント追加(KFひま字ふで) */
+@font-face {
+	font-family: 'himahudefont';
+	src: local('himahudefont'), 
+	local('himahudefont'), 
+	url('../fonts/KFhimajiFUDE.otf') format('opentype');
+}
+
+/* 使用フォント追加(KFひま字フェイス) */
+@font-face {
+	font-family: 'himafacefont';
+	src: local('himafacefont'), 
+	local('himafacefont'), 
+	url('../fonts/KFhimajiFACE.otf') format('opentype');
+}
+
+
+/* clearfix　回りこみ解除 */
+.cfx:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/* 左寄せ */
+.flL{
+	float: left;
+}
+/* 右寄せ */
+.flR{
+	float:right;
+}
+/* 文字左寄せ */
+.txL{
+	text-align: left;
+}
+/* 文字中央寄せ */
+.txC{
+	text-align: center;
+}
+/* 文字右寄せ */
+.txR{
+	text-align: right;
+}
+

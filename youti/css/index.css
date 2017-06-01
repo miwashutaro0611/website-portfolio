@@ -1,0 +1,742 @@
+@charset "utf-8";
+
+body{
+	background-color: rgba(0,201,255,0.45);
+}
+
+.wrap{
+	color:#444;
+}
+
+/* ------------------------------- ここからheader */
+
+header{
+	min-width:1200px;
+	background-color: #fff;
+}
+
+#header{
+	width:1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+header h1{
+	width:170px;
+	height:70px;
+	margin:20px 10px 15px 10px;
+}
+
+header .header_waku{
+	margin:15px 20px 0 10px;
+}
+
+header .header_waku ul{
+}
+
+header .header_waku ul li{
+	margin:0 10px;
+	padding: 0 0 5px;
+	border-bottom: 2px dotted #00c9ff;
+}
+
+header .header_waku ul li a{
+	color:#00c9ff;
+	font-family: himahudefont;
+	text-decoration: none;
+}
+
+header .header_waku ul li a:hover{
+	opacity: 0.6;
+}
+
+
+header p{
+	font-size: 17px;
+	color:#444;
+	position: absolute;
+	top:50px;
+	right:15px;
+}
+
+header p span{
+	margin:0 0 0 10px;
+	font-family: himahudefont;
+	color:#00c9ff;
+	font-size: 25px;
+}
+
+header p span img{
+	margin:0 5px 0 0;
+}
+
+/* ------------------------------- ここからnav */
+
+nav{
+	min-width:1200px;
+	background-color: #fff;
+}
+nav ul{
+	width:1200px;
+	position: relative;
+	margin:0 auto;
+	padding:0 0 10px 0;
+}
+nav ul li{
+	width:150px;
+	height:40px;
+	border-left:2px dotted #00c9ff;
+	box-sizing: border-box;
+	display:table;
+}
+nav ul .last{
+	/*border-left:4px dotted #00c9ff;*/
+	border-right:2px dotted #00c9ff;
+	box-sizing: border-box;
+	display:table;
+}
+nav ul li a{
+	width:150px;
+	color:#444;
+	display: table-cell;
+	vertical-align:bottom;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+/*ナビゲーションついてくるやつ*/
+nav ul #btn-bd {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width:150px;
+    height:8px;
+    background: #00c9ff;
+    z-index: 99;
+}
+
+nav ul #btn-bd2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width:150px;
+    height:8px;
+    background: #aeff97;
+    z-index: 100;
+}
+/*スクロールしたらナビ固定*/
+
+#navi{
+	width:1200px;
+}
+
+.white{
+	position: fixed;
+	width:100%;
+	top:0;
+	left: 0;
+	height: 50px;
+	background: #fff;
+	z-index: 9990;
+}
+
+.fixed{
+  position: fixed;
+  padding:0 0 10px;
+  background: #fff;
+  top: 0;
+  left: 50%;
+  margin-left:-600px;
+  z-index: 9999;
+}
+
+
+
+/* ------------------------------- ここからarticle */
+
+article{
+	margin:0 0 70px 0;
+}
+/* ------------------------------- ここから#main */
+#main h2{
+	width:1000px;
+	height:450px;
+	margin:25px auto;
+	background-color: #fff;
+}
+/* ------------------------------- ここから#top_nav */
+
+#top_nav{
+	width:1100px;
+	margin:0 auto;
+}
+
+#top_nav ul{
+	margin:0 20px;
+}
+
+#top_nav li{
+	position:relative;
+	margin:30px 20px;
+}
+
+#top_nav li h2{
+	width:300px;
+	height:300px;
+	border-radius: 300px;
+	border:5px solid #aeff97;
+}
+
+#top_nav li h2 img{
+	border-radius: 300px;
+}
+
+#top_nav ul li p{
+	position: absolute;
+	bottom:-25px;
+	width:300px;
+	height:40px;
+	line-height:40px;
+	margin:0 -5px 15px;
+	background: #fff;
+	border:5px solid #aeff97;
+	border-radius: 30px;
+}
+
+#top_nav ul li p a{
+	position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+	font-size:15px;
+	text-decoration: none;
+	color:#444;
+}
+
+#top_nav ul li p:hover{
+	bottom:-15px;
+}
+
+/* ------------------------------- ここから#news */
+#news{
+	margin:50px 0 50px 0;
+}
+
+#news h2{
+	width:1050px;
+	font-family: hunwarifont;
+	font-size: 35px;
+	margin:30px auto 25px;
+	color:#fff;
+	text-shadow: #00c9ff 1px 1px 0px, #00c9ff -1px 1px 0px,
+             	 #00c9ff 1px -1px 0px, #00c9ff -1px -1px 0px;
+}
+
+#news #news_waku{
+	width:900px;
+	margin:0 auto;
+	padding:20px;
+	background-color: #fff;
+	border:5px dashed #aeff97;
+}
+
+#news #news_waku ul li{
+	margin:10px;
+	padding:15px 15px 10px;
+	border-bottom:5px dashed #aeff97;
+}
+
+#news #news_waku ul li a{
+	color:#444;
+	font-size:18px;
+	text-decoration: none;
+}
+#news #news_waku ul li a:hover{
+	opacity:0.6;
+}
+#news #news_waku ul li a span{
+	margin:0 0 0 30px;
+}
+
+#news #news_waku p{
+	margin:25px 0 0 0;
+}
+
+#news #news_waku p a{
+	color:#444;
+	font-size:18px;
+	text-decoration: none;
+}
+
+#news #news_waku p a:hover{
+	opacity:0.6;
+}
+/* ------------------------------- ここから#what */
+
+#what{
+	min-width: 1200px;
+	background: #aeff97;
+	padding:3px 0;
+}
+
+#what hr{
+	border-top:5px dashed #00c9ff;
+
+}
+
+#what #what_waku{
+	width: 900px;
+	margin: 0 auto;
+}
+
+#what #what_waku h2{
+	margin:30px 0;
+	font-family: himafacefont;
+	color:#fff;
+	font-size:40px;
+	text-shadow: #00c9ff 1px 1px 0px, #00c9ff -1px 1px 0px,
+             	 #00c9ff 1px -1px 0px, #00c9ff -1px -1px 0px;
+}
+
+#what #what_waku p{
+	line-height: 2.0;
+}
+
+/* ------------------------------- ここから#chara */
+
+#chara{
+	margin:60px 0 0 0;
+}
+
+#chara h2{
+	width:1050px;
+	font-family: hunwarifont;
+	font-size: 35px;
+	margin:30px auto 25px;
+	color: #fff;
+	text-shadow: #00c9ff 1px 1px 0px, #00c9ff -1px 1px 0px,
+             	 #00c9ff 1px -1px 0px, #00c9ff -1px -1px 0px;
+}
+
+#chara .chara_waku{
+	width:1100px;
+	margin:0 auto 30px;
+	padding:0 15px 0 0;
+	border-radius: 30px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+#chara .chara_waku .img{
+	width:350px;
+	height:350px;
+	margin:0 30px 0 0;
+	background: #00f;
+}
+
+#chara .chara_waku .text_area{
+	width:680px;
+	height:330px;
+	padding:10px 0;
+	margin:10px 0;
+	border-top:4px dashed #aeff97;
+	border-bottom:4px dashed #aeff97;
+	box-sizing: border-box;
+}
+
+#chara .chara_waku .text_area h3{
+	font-size: 20px;
+	margin:15px 0 10px 0;
+	color:#1aa8ea;
+	border-bottom: 4px dashed #aeff97;
+	padding: 0 10px 20px;
+}
+
+#chara .chara_waku .text_area .text{
+	font-size: 15px;
+	margin:0 0 15px;
+	padding:0 10px;
+	line-height: 2.0;
+}
+
+#chara .chara_waku .text_area .hosoku{
+	font-size: 12px;
+	margin:0 0 20px 0;
+	padding:0 10px;
+	line-height: 1.4;
+}
+
+/* ------------------------------- ここから#photo */
+
+#photo{
+	margin:60px 0 0 0;
+}
+
+#photo h2{
+	width:1050px;
+	font-family: hunwarifont;
+	font-size: 35px;
+	margin:30px auto 25px;
+	color: #fff;
+	text-shadow: #00c9ff 1px 1px 0px, #00c9ff -1px 1px 0px,
+             	 #00c9ff 1px -1px 0px, #00c9ff -1px -1px 0px;
+}
+
+#photo #photo_waku{
+	min-width: 1200px;
+	background: #aeff97;
+	padding:3px 0;
+}
+#photo #photo_waku2{
+	width:1200px;
+	position: relative;
+	margin:0 auto;
+}
+
+#photo #photo_waku3{
+	width:850px;
+	height:300px;
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+
+
+}
+
+#photo #photo_waku hr{
+	border-top:5px dashed #00c9ff;
+
+}
+
+#photo #photo_waku #photolist{
+	width: 3360px;
+	position: absolute;
+	left: 0;
+}
+
+#photo #photo_waku .go{
+	width: 60px;
+	height: 100px;
+	position: absolute;
+	cursor: pointer;
+	font-family: hunwarifont;
+	font-size: 35px;
+	margin:100px 0px 50px;
+	line-height: 90px;
+	background-color: #fff;
+	border:5px solid #00c9ff;
+	box-sizing: border-box;
+}
+
+#photo #photo_waku .prev{
+	top:0;
+	left:100px;
+}
+
+#photo #photo_waku .next{
+	top:0;
+	right:100px;
+}
+
+#photo #photo_waku #photolist .photo{
+	width: 250px;
+	height: 250px;
+	margin:15px;
+	line-height: 250px;
+	border-radius: 250px;
+	box-sizing: border-box;
+}
+
+#photo #photo_waku #photolist .photo img{
+	border-radius: 250px;
+	border:5px solid #00c9ff;
+	box-sizing: border-box;
+}
+
+#photo .more{
+	position:relative;
+	width:300px;
+	height: 50px;
+	line-height: 50px;
+	margin:25px auto;
+	background-color: #fff;
+	border:5px solid #aeff97;
+}
+
+#photo .more a{
+	position:absolute;
+    top:0;
+    left:0;
+	width:100%;
+    height:100%;
+    color:#444;
+    text-decoration: none;
+}
+
+#photo .more:hover{
+	opacity: 0.8;
+}
+
+/* ------------------------------- ここから#motto */
+
+#motto{
+	margin:60px 0 0 0;
+}
+
+#motto h2{
+	width:1050px;
+	font-family: hunwarifont;
+	font-size: 35px;
+	margin:30px auto 25px;
+	color: #fff;
+	text-shadow: #00c9ff 1px 1px 0px, #00c9ff -1px 1px 0px,
+             	 #00c9ff 1px -1px 0px, #00c9ff -1px -1px 0px;
+}
+
+#motto .motto_waku{
+	width:1000px;
+	height:430px;
+	margin:0 auto 25px;
+	padding:20px;
+	background-color: #fff;
+	border-radius: 40px;
+}
+
+#motto .motto_waku .motto_waku2{
+	position: relative;
+	width:990px;
+	height:420px;
+	border:5px dashed #f4b162;
+	border-radius: 40px;
+}
+
+#motto .motto_waku .motto_waku2 h3{
+	margin:0 45px;
+	padding:20px 20px 15px 10px;
+	font-size:26px;
+	border-bottom:5px solid #f4b162;
+}
+
+#motto .motto_waku .motto_waku2 .text{
+	padding:20px 20px 20px 30px;
+	font-size:23px;
+	line-height:2.0;
+}
+
+#motto .motto_waku .motto_waku2 .img{
+	width:700px;
+	height:150px;
+	margin:0 10px;
+}
+
+#motto .motto_waku .motto_waku2 .more_waku{
+	position: absolute;
+	bottom:60px;
+	right:30px;
+	width:280px;
+	height:80px;
+	background: url(../images/btn2.png);
+}
+
+#motto .motto_waku .motto_waku2 .more_waku a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color:#fff;
+	width: 100%;
+	height:100%;
+	font-size:25px;
+	line-height:100px;
+	text-decoration: none;
+}
+
+#motto .motto_waku .motto_waku2 .more_waku:hover{
+	transform: rotate(-5deg);
+}
+
+/* ------------------------------- ここから#contact */
+
+#contact{
+	margin:60px 0 0 0;
+}
+
+#contact h2{
+	width:1050px;
+	font-family: hunwarifont;
+	font-size: 35px;
+	margin:30px auto 45px;
+	color: #fff;
+	text-shadow: #00c9ff 1px 1px 0px, #00c9ff -1px 1px 0px,
+             	 #00c9ff 1px -1px 0px, #00c9ff -1px -1px 0px;
+}
+
+#contact #contact_area{
+	width:1000px;
+	margin:0 auto;
+}
+
+#contact .contact_waku{
+	width:250px;
+	height:300px;
+	margin:0 80px 0 0;
+	background-color: #fff;
+	border:5px solid #aeff97;
+	border-radius: 40px;
+	box-sizing: border-box;
+}
+
+#contact .contact_waku h3{
+	font-size:19px;
+	margin:25px 0;
+	color:#1aa8ea;
+}
+
+#contact .contact_waku .image{
+	width:240px;
+	height:130px;
+	padding:10px 0;
+	background-color: #aeff97;
+}
+
+#contact .contact_waku .text{
+	font-size:16px;
+	line-height: 1.5;
+	margin:10px 0;
+}
+
+#contact .contact_waku .text a{
+	color:#444;
+	text-decoration: none;
+}
+
+#contact .contact_waku .text a:hover{
+	text-decoration: underline;
+}
+
+/* ------------------------------- ここからaside */
+
+aside{
+	max-width: 1200px;
+	position: relative;
+}
+
+aside p{
+	width:110px;
+	height:60px;
+	margin:10px 0 0;
+	border:5px solid #b9fba6;
+	border-radius: 10px;
+	background: #fff;
+	font-family: "himahudefont";
+	color:#00c9ff;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+aside #top{
+	padding:10px 10px 5px;
+	position: fixed;
+	bottom:100px;
+	right:30px;
+	z-index: 8000;
+}
+
+aside #bottom{
+	padding:5px 10px 10px;
+	position: fixed;
+	bottom:30px;
+	right:30px;
+	z-index: 8000;
+}
+
+aside #top span{
+	position: absolute;
+	top:10px;
+	left:40%;
+}
+
+aside #top:hover span{
+	top:5px;
+}
+
+aside #bottom span{
+	position: absolute;
+	bottom:10px;
+	left:40%;
+}
+
+aside #bottom:hover span{
+	bottom:5px;
+}
+
+/* ------------------------------- ここからfooter */
+
+footer{
+	min-width: 1200px;
+	padding:20px 0 0 0;
+	background-color: #fff;
+}
+
+#footer{
+	width:1200px;
+	background-color: #fff;
+	margin:0 auto;
+}
+
+footer .logo{
+	width:170px;
+	height:70px;
+	margin:0 10px 15px 10px;
+}
+
+footer .area{
+	font-weight: bold;
+	margin:0 50px 0 90px;
+}
+
+footer .area .adr1{
+	margin:0 0 5px 0;
+	font-size:16px;
+}
+
+footer .area .adr2{
+	margin:0 0 10px 0;
+	font-size:16px;
+}
+
+footer .area .tel{
+	font-size:22px;
+}
+
+footer .area .tel img{
+	margin:0 5px 0 0;
+}
+
+footer .claim{
+	width:350px;
+	height:70px;
+	margin:0 140px 0 0;
+}
+
+footer .claim:hover{
+	opacity: 0.6;
+}
+
+footer div ul li{
+	margin:15px;
+}
+
+footer div ul li a{
+	color: #444;
+	text-decoration: none;
+}
+
+footer div ul li a:hover{
+	opacity: 0.6;
+}
+
+footer div small{
+	margin: 27px 15px 15px;
+	font-size:12px;
+}

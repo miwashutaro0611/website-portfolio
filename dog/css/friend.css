@@ -1,0 +1,392 @@
+@charset "utf-8";
+
+
+h2{
+	color:#5f5d57;
+	font-size:1.4em;
+	margin:25px 0 15px 80px;
+	padding:0 0 0 15px;
+	border-left: 10px solid #5f5d57;
+}
+h3{
+	color:#564d42;
+	font-size: 1.2em;
+	margin:50px 0 25px 90px;
+	width:790px;
+	padding:10px 15px;
+	background-color: #fff;
+	border:1px solid #564d42;
+}
+
+#tomodatimain{
+	width:830px;
+	/*height:150px;*/
+	margin:0 auto;
+}
+
+#tomodatimain img{
+	width:100%;
+}
+
+#kensaku .find{
+	margin:25px 100px;
+}
+#kensaku .find p{
+	padding:20px 20px 0 0;
+	font-weight: bold;
+	width: 150px;
+	box-sizing: border-box;
+}
+
+#kensaku .find p.find-title{
+	margin: 20px 0 0;
+}
+
+#kensaku .find select{
+    height: 30px;
+    margin:0 20px 0 0;
+    font-size: 0.9em;
+		font-weight: bold;
+}
+
+#kensaku #btn{
+	margin:20px 200px 0;
+	width:600px;
+	height:50px;
+	background-color: #5f5d57;
+	color:#fff;
+	font-size:0.9em;
+	border-radius: 5px;
+	border:3px solid #5f5d57;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#kensaku #btn:hover{
+	color:#5f5d57;
+	background-color: #fff;
+}
+
+#kekka{
+
+}
+
+#kekka .waku{
+	color:#564d42;
+	margin:10px 0 0 90px;
+	width:790px;
+	padding:10px 15px;
+	background-color: #fff;
+	border: 1px solid #5f5d57;
+}
+
+#kekka .waku .image{
+	width:150px;
+	height:150px;
+	border-radius: 150px;
+}
+
+#kekka .waku .image img{
+	border-radius: 150px;
+}
+
+#kekka .waku .title{
+	width:600px;
+	margin:0 0 0 15px;
+	padding:10px;
+	font-size: 1.2em;
+}
+
+#kekka .waku .dog{
+	width:600px;
+	margin:0 0 0 15px;
+	padding:10px;
+	font-size: 0.9em
+}
+
+#kekka .waku .dogsyu{
+	width:600px;
+	margin:0 0 0 15px;
+	padding:10px;
+	font-size: 0.9em
+}
+
+#kekka .waku .ken{
+	width:600px;
+	margin:0 0 0 15px;
+	padding:10px;
+	font-size: 0.9em
+}
+
+#kekka .more{
+	position: relative;
+	width:792px;
+	height:34px;
+	line-height: 34px;
+	margin:0 0 35px 90px;
+	padding:0 15px;
+	text-align: center;
+	background-color: #5f5d57;
+	font-size: 0.9em;
+}
+
+#kekka .more a{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	color:#fff;
+}
+
+/************************* 詳細画面 */
+
+#friend_top{
+	width:250px;
+}
+
+#friend_top .image{
+	border-radius:250px;
+}
+
+#friend_top .image img{
+	border-radius:250px;
+}
+
+#friend_top table{
+	width:240px;
+	margin:15px 0;
+	background-color: #fff;
+	border: 1px solid #5f5d57;
+	box-sizing: border-box;
+}
+
+#friend_top table tr{
+	border-bottom: 1px solid #5f5d57;
+}
+
+#friend_top table th{
+	width:80px;
+	height:30px;
+	max-height:1000px;
+	padding:5px 5px 5px 10px;
+	font-size: 0.8em;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+#friend_top table td{
+	font-size: 0.8em;
+	padding:5px 10px 5px 0;
+	vertical-align: middle;
+}
+
+#friend_pet{
+	width:700px;
+	margin:0 25px;
+}
+
+#friend_pet #friend_touroku{
+
+}
+
+#friend_pet #friend_touroku .part1{
+	position: relative;
+	width:256px;
+	height:76px;
+	line-height: 80px;
+	border-radius: 15px;
+	box-sizing: border-box;
+	font-size: 1.2em;
+}
+
+#friend_pet #friend_touroku .part1 a{
+	color:#5f5d57;
+	background-color: #fff;
+	border-radius: 11px;
+	border: 2px solid #5f5d57;
+}
+
+#friend_pet #friend_touroku .part1 a:hover{
+	color:#fff;
+	background-color: #5f5d57;
+}
+
+#friend_pet #friend_touroku .part2{
+	width:256px;
+	height:76px;
+	line-height: 1.5;
+	border-radius: 15px;
+	box-sizing: border-box;
+	font-size: 1.1em;
+	color:#5f5d57;
+	background-color: #fff;
+	border: 2px solid #5f5d57;
+	box-sizing: border-box;
+	font-weight: bold;
+	padding:10px 15px;
+}
+
+#friend_pet #friend_touroku .part3{
+	position: relative;
+	width:256px;
+	height:85px;
+	border-radius: 15px;
+	box-sizing: border-box;
+}
+
+#friend_pet #friend_touroku .part3 a{
+	padding:10px;
+	color:#5f5d57;
+	font-size: 1.1em;
+	font-weight: bold;
+	background-color: #fff;
+	border-radius: 11px;
+	border: 2px solid #5f5d57;
+	box-sizing: border-box;
+}
+
+#friend_pet #friend_touroku .part3 a span{
+	font-weight: normal;
+	font-size: 0.9em;
+}
+
+#friend_pet #friend_touroku .part3 a:hover{
+	color:#fff;
+	background-color: #5f5d57;
+}
+
+#friend_pet #friend_touroku p{
+	margin:55px 20px;
+}
+
+#friend_pet #friend_touroku p a{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+
+#friend_pet table{
+	width:400px;
+	background-color: #fff;
+}
+
+#friend_pet table tr{
+	height:40px;
+	border-bottom: 1px solid #5f5d57;
+}
+
+#friend_pet table tr:last-child{
+	height:40px;
+	border-bottom: 0;
+}
+
+#friend_pet table tr th{
+	width:120px;
+	padding:10px;
+	font-size: 0.8em;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+#friend_pet table tr td{
+	padding: 10px 20px 10px 10px;
+	font-size: 0.8em;
+	vertical-align: middle;
+	line-height: 1.5;
+}
+
+#friend_pet table tr td a{
+	color:#5f5d57;
+	text-decoration: underline;
+}
+
+#friend_pet table tr td a:hover{
+	text-decoration: none;
+}
+
+#friend_pet .waku{
+	width:660px;
+	margin:20px;
+	padding:10px;
+	background-color: #fff;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+#friend_pet .waku2{
+	width:660px;
+	margin:20px;
+	padding:10px;
+	background-color: #fff;
+	border:3px solid #5f5d57;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+#friend_pet h2{
+	margin:0 10px 15px;
+	padding:0 15px 5px;
+	border-left: 0;
+	border-bottom: 1px dotted #5f5d57;
+	font-size: 0.9em;
+}
+
+#friend_pet p{
+	padding:5px 20px 10px;
+	font-size: 0.8em;
+	line-height:1.5;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  border-radius: 10px;
+  border: 1px solid #5f5d57;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  vertical-align: middle;
+  font-size: inherit;
+  color: inherit;
+  box-sizing: content-box;
+}
+
+.custom{
+	/*background: #fff;
+	margin:0 10px 0 0;*/
+	position: relative;
+}
+
+.custom > select {
+  width: auto;
+  padding: 0.6em 2.4em 0.6em 0.6em;
+  font-size: 1rem;
+}
+
+.custom:after {
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  right:30px;
+  width: 1.8em;
+  display: block;
+  content: ">";
+  position:absolute;
+  pointer-events: none;
+	transform: rotate(90deg);
+}

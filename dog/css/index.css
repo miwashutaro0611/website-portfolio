@@ -1,0 +1,389 @@
+@charset "utf-8";
+
+h2{
+	color:#5f5d57;
+	font-size:1.7em;
+	margin:20px 0 15px 10px;
+	padding:0 0 0 15px;
+	border-left: 10px solid #5f5d57;
+}
+
+h3{
+	color:#564d42;
+	font-size: 1.3em;
+	text-align: center;
+	margin:30px 0 25px 15px;
+	width:200px;
+	padding:5px 15px 10px;
+	border-bottom: 5px solid #564d42;
+}
+
+article {
+    width: auto;
+    position: relative;
+    z-index: -80;
+}
+
+
+#m_visual{
+	width:1000px;
+	margin:0 auto;
+	position: relative;
+	z-index: -60;
+}
+#m_visual #main{
+	position: relative;
+	z-index: -50;
+	width:1000px;
+	height:350px;
+	box-shadow: 0 20px 15px #555;
+	margin: 0 0 25px;
+}
+#m_visual #big_nav{
+	width:1000px;
+	height:150px;
+}
+
+#m_visual #big_nav ul{
+
+}
+#m_visual #big_nav ul li{
+	position: relative;
+	width:250px;
+	height:150px;
+	line-height: 150px;
+	text-align: center;
+	font-size:22px;
+}
+
+#m_visual #big_nav ul li a{
+	color:#fff;
+	position: absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left: 0;
+	box-shadow: 0 5px 10px #555;
+	-webkit-transition:box-shadow 0.3s linear,opacity 0.3s linear;
+}
+
+#m_visual #big_nav ul #big1{
+	background-image: url("../img/big_nav1.jpg");
+}
+#m_visual #big_nav ul #big2{
+	background-image: url("../img/big_nav2.jpg");
+}
+#m_visual #big_nav ul #big3{
+	background-image: url("../img/big_nav3.jpg");
+}
+#m_visual #big_nav ul #big4{
+	background-image: url("../img/big_nav4.jpg");
+}
+
+#m_visual #big_nav ul li span{
+	background-color: rgba(102,91,79,0.85);
+	padding:25px 30px;
+	border-radius: 4px;
+}
+#m_visual #big_nav ul li a:hover{
+	opacity: 1;
+	box-shadow: 0 0 10px #555;
+}
+
+#find{
+	width:auto;
+}
+
+#find h2{
+	width:1000px;
+	margin:20px auto 15px;
+}
+
+#find #region{
+	width:1000px;
+	margin:0 auto;
+}
+
+#find #facility{
+	width:1000px;
+	margin:0 auto 50px;
+}
+
+#find .shop #touhoku{
+	border-bottom: 3px solid #ce8271;
+}
+#find .shop #hokuriku{
+	border-bottom: 3px solid #e9b443;
+}
+#find .shop #kantou{
+	border-bottom: 3px solid #95b846;
+}
+#find .shop #tokai{
+	border-bottom: 3px solid #479e9f;
+}
+#find .shop #kansai{
+	border-bottom: 3px solid #00a7a6;
+}
+#find .shop #tyugoku{
+	border-bottom: 3px solid #425c91;
+}
+#find .shop #kyusyu{
+	border-bottom: 3px solid #9c5e96;
+}
+
+#find #region .shop .tihou{
+	min-width:120px;
+	text-align: center;
+	margin:10px 15px 10px 0;
+	padding:0 0 5px 0;
+	color:#5f5d57;
+}
+
+#find #region .shop ul li{
+	margin:5px;
+	padding: 2px 4px;
+	width:75px;
+	height:24px;
+	line-height: 24px;
+	text-align: center;
+	font-size: 0.9em;
+	position: relative;
+}
+
+#find #region .shop ul li a{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	border-radius: 5px;
+}
+
+#find #region .shop #t1 li a{
+	color:#ce8271;
+	background-color: #fff;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+
+}
+#find #region .shop #t2 li a{
+	color:#e9b443;
+	background-color: #fff;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+#find #region .shop #t3 li a{
+	color:#95b846;
+	background-color: #fff;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+#find #region .shop #t4 li a{
+	color:#479e9f;
+	background-color: #fff;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+#find #region .shop #t5 li a{
+	color:#425c91;
+	background-color: #fff;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+#find #region .shop #t6 li a{
+	color:#9c5e96;
+	background-color: #fff;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#find #region .shop #t7 li a{
+	color:#00a7a6;
+	background-color: #fff;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#find #region .shop #t1 li a:hover {
+	color:#fff;
+	background-color:#ce8271;
+}
+#find #region .shop #t2 li a:hover {
+	color:#fff;
+	background-color:#e9b443;
+}
+#find #region .shop #t3 li a:hover {
+	color:#fff;
+	background-color:#95b846;
+}
+#find #region .shop #t4 li a:hover {
+	color:#fff;
+	background-color:#479e9f;
+}
+#find #region .shop #t5 li a:hover {
+	color:#fff;
+	background-color:#425c91;
+}
+#find #region .shop #t6 li a:hover {
+	color:#fff;
+	background-color:#9c5e96;
+}
+
+#find #region .shop #t7 li a:hover {
+	color:#fff;
+	background-color:#00a7a6;
+}
+
+#find #facility ul li{
+	padding:10px 5px;
+	margin:10px;
+	width:215px;
+	height:24px;
+	position: relative;
+}
+
+#find #facility ul li a{
+	font-size:0.85em;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	font-size:0.85em;
+	background-color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	color:#5f5d57;
+	line-height:48px;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#find #facility ul li a:hover{
+	color:#fff;
+	background-color:#5f5d57;
+}
+
+#news{
+	width:1000px;
+	margin:0 auto;
+}
+
+#news .hosoku{
+	font-size: 0.8em;
+}
+
+#news .news_area{
+	background: #fff;
+	padding:20px;
+	box-sizing: border-box;
+}
+
+#news dl{
+	margin:10px 50px 0;
+	padding:15px 0 10px;
+	font-size: 16px;
+	border-bottom: 1px dotted #5f5d57;
+}
+
+#news dl .time{
+	width:15%;
+}
+
+#news dl .news_content{
+	margin:0 0 0 2%;
+	width:80%;
+}
+
+#news dl .news_content a{
+	color:#5f5d57;
+}
+
+#news dl .news_content a:hover{
+	text-decoration: underline;
+}
+
+#news .news_area .more{
+	margin:20px 0 0;
+}
+
+#news .news_area .more a{
+	color:#5f5d57;
+}
+
+#news .news_area .more a:hover{
+	text-decoration: underline;
+}
+
+
+/************************** ニュースの色 */
+
+.color1{
+	/*赤*/
+	border:3px solid #f43d3d;
+}
+
+.color2{
+	/*黄色*/
+	border:3px solid #fcfc0b;
+}
+
+.color3{
+	/*緑*/
+	border:3px solid #46b760;
+}
+
+.color4{
+	/*青*/
+	border:3px solid #1420f7;
+}
+
+.color5{
+	/*黄緑*/
+	border:3px solid #0bff56;
+}
+
+.color6{
+	/*水色*/
+	border:3px solid #31dbf7;
+}
+
+#slider {
+	width:1000px;
+	height:350px;
+
+	/*IE bugfix*/
+	padding:0;
+	margin:0;
+}
+
+#slider li { list-style:none; }
+
+#page {
+	width:1000px;
+	margin:50px auto 0;
+}

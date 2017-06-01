@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+
+h2{
+	color:#5f5d57;
+	width:600px;
+	font-size:1.4em;
+	margin:20px 0 15px 10px;
+	padding:0 0 0 15px;
+	border-left: 10px solid #5f5d57;
+}
+h3.form_h3{
+	color:#fff;
+	width:600px;
+	font-size: 1.1em;
+	margin:30px 10px 25px 10px;
+	padding:15px;
+	background-color: #564d42;
+}
+
+p.error{
+	color:#f00;
+}
+
+#section_1 ul{
+	width:700px;
+	margin:0 auto;
+	text-align: center;
+}
+
+#section_1 ul li{
+	padding:5px;
+}
+
+#section_1 ul .ya{
+	padding:15px 10px;
+
+}
+
+.item_active{
+	color:#f00;
+}
+
+.form_box .name{
+	margin:10px 15px;
+	width:250px;
+	height:30px;
+	font-size:0.9em;
+}
+
+.form_box .kname{
+	margin:10px 15px;
+	width:250px;
+	height:30px;
+	font-size:0.9em;
+}
+
+.form_box .sex{
+	margin:10px;
+	padding:10px;
+	background-color: #fff;
+}
+
+.form_box .sex span{
+	padding:0 20px 0 15px;
+	font-size:0.9em;
+}
+
+.form_box .adr{
+	margin:10px;
+	padding:5px;
+	font-size:0.9em;
+}
+
+.form_box .adrbtn{
+	width:70px;
+	height:30px;
+	background-color: #5f5d57;
+	color:#fff;
+	font-size:0.9em;
+	border-radius: 5px;
+	border:3px solid #5f5d57;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+.form_box .adrbtn:hover{
+	color:#5f5d57;
+	background-color: #fff;
+}
+
+.form_box .adr_de{
+	margin:10px;
+	width:600px;
+	padding:10px;
+	font-size:0.9em;
+}
+
+.form_box .kome{
+	margin:0 0 0 11px;
+}
+
+.form_box #nen{
+	margin:10px;
+	width:90px;
+	height:30px;
+	font-size:0.9em;
+}
+
+.form_box #tuki{
+	margin:10px;
+	width:90px;
+	height:30px;
+	font-size:0.9em;
+}
+
+.form_box #hi{
+	margin:10px;
+	width:90px;
+	height:30px;
+	font-size:0.9em;
+}
+
+.form_box #tel{
+	margin:10px;
+	width:200px;
+	height:30px;
+	font-size:0.9em;
+}
+
+.form_box #address{
+	margin:10px;
+	width:955px;
+	height:30px;
+	font-size:0.9em;
+}
+
+.form_box .password{
+	margin:10px;
+	width:955px;
+	height:30px;
+	font-size:0.9em;
+}
+
+.form_item{
+	margin:0 0 0 20px;
+}
+
+#submit_box #sub{
+	width:550px;
+	height:50px;
+	margin:40px 50px 50px;
+	background-color: #5f5d57;
+	color:#fff;
+	font-size:0.9em;
+	border-radius: 5px;
+	border:3px solid #5f5d57;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#submit_box #sub:hover{
+	color:#5f5d57;
+	background-color: #fff;
+}
+
+/**************************  ユーザ確認画面　*/
+
+#cform .form_h3-min{
+	color:#fff;
+	width:600px;
+	font-size: 1.1em;
+	margin:30px 10px 25px 10px;
+	padding:15px;
+	background-color: #564d42;
+}
+
+#cform .checktext{
+	margin:0 0 0 25px;
+}
+
+#cform .btn{
+	position: relative;
+	margin:40px 50px 50px;
+}
+
+#cform .post{
+	width:206px;
+	height:56px;
+	background-color: #5f5d57;
+	color:#fff;
+	font-size:0.9em;
+	border-radius: 5px;
+	border:3px solid #5f5d57;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#cform .post:hover{
+	color:#5f5d57;
+	background-color: #fff;
+}
+
+#cform .btn span{
+	position: absolute;
+	top:30%;
+	right:10%;
+	color:#000;
+}
+
+#cform .back{
+	position: relative;
+	width:200px;
+	height:50px;
+	margin:40px 50px 50px;
+	background-color: #5f5d57;
+	border-radius: 5px;
+	border:3px solid #5f5d57;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#cform .back{
+	position: relative;
+	width:200px;
+	height:50px;
+	margin:40px 50px 50px;
+	background-color: #5f5d57;
+	border-radius: 5px;
+	border:3px solid #5f5d57;
+	-webkit-transition:color 0.3s linear,background-color 0.3s linear;
+	-moz-transition:color 0.3s linear,background-color 0.3s linear;
+	-ms-transition:color 0.3s linear,background-color 0.3s linear;
+	-o-transition:color 0.3s linear,background-color 0.3s linear;
+	transition:color 0.3s linear,background-color 0.3s linear;
+}
+
+#cform .back span{
+	position: absolute;
+	top:30%;
+	left:10%;
+	color:#000;
+}
+
+#cform .back a{
+	position: absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	line-height: 50px;
+	color:#fff;
+	font-size:0.9em;
+}
+
+#cform .back:hover{
+	background-color: #fff;
+}
+
+#cform .back a:hover{
+	color:#5f5d57;
+}

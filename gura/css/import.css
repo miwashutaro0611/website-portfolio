@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+/* clearfix　回りこみ解除 */
+.cfx:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/* 左寄せ */
+.flL{
+	float: left;
+}
+/* 右寄せ */
+.flR{
+	float:right;
+}
+/* 文字左寄せ */
+.txL{
+	text-align: left;
+}
+/* 文字中央寄せ */
+.txC{
+	text-align: center;
+}
+/* 文字右寄せ */
+.txR{
+	text-align: right;
+}
+
+ul.cfx li{
+	float:left;
+}
+
+/* ------------------------------span class効果 */
+
+.movie{
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+/*改行系*/
+.pc-block{ display: block; }
+.sp-block{ display:inline-block; }
+
+/*色系*/
+.blue { color:#0352aa; }
+.blue2 { color:#0362e9; }
+
+/*大きさ系*/
+/*pc版*/
+.h1large { font-size:2vw; }
+.h4small{ font-size:3.6vw; color:#02a0ed;}
+.h2small{ 
+	font-size:2.3vw; 
+	display: block;
+	padding:0 0 2%;
+	color:#fff;
+	text-shadow: none;
+	background: none;
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+.h3large{ font-size:2.5vw; }
+.plarge{ font-size:1.9vw; }
+
+.twitter_small { 
+	color:#0dc8ff; 
+	font-size:1.2vw; 
+	font-weight: bold;
+	letter-spacing: 0.2vw; 
+	margin:0 0 0 3%; 
+}
+.lilarge { font-size:1.8vw; line-height: 1.6; }
+
+/*sp,pcで表示切り替え*/
+.pc { display: inline-block; }
+.sp { display: none; }
+
+/*キャンペーン画像jqueryアニメーションでのポジション*/
+
+.pcanimate01{
+	right:12% !important ;
+	transition: 0.6s !important ;
+	transition-delay: 0.6s !important ;
+}
+.pcanimate02{
+	margin-left:65% !important ;
+	transition: 0.8s !important ;
+	transition-delay: 0.8s !important ;
+}
+.pcanimate03{
+	margin-left:22% !important ;
+	transition: 0.8s !important ;
+	transition-delay: 0.8s !important ;
+}
+.pcposition01{
+	right:12% !important ;
+}
+.pcposition02{
+	margin-left:65% !important ;
+}
+.pcposition03{
+	margin-left:22% !important ;
+}
+.spposition01{
+	right:0 !important ;
+}
+.spposition02{
+	margin-left:65% !important ;
+}
+.spposition03{
+	margin-left:10% !important ;
+}
+
+.illust .large{
+	font-size:1.7vw;
+}
+
+.illust .small{
+	width:112%;
+	margin:1% 0 0;
+	font-size:10px;
+	transform: scale(0.8);
+}
+
+/* ########### 1200px以上になったらテキストサイズ固定########### */
+@media screen and (min-width: 1200px) {
+
+.lilarge { font-size:25px; }
+
+.illust .small{
+	font-size:1vw;
+}
+
+}
+
+/* ########### 1200px以上になったらテキストサイズ固定########### */
+@media screen and (max-width: 767px) {
+
+/*改行系*/
+.pc-block{ display:block; }
+.sp-block{ display:block; }
+
+/*大きさ系*/
+/*sp版*/
+.h1large { font-size:5.3vw; }
+.h4small{ font-size:3.6vw; color:#02a0ed;}
+.h2small{ 
+	width:60%;
+	margin:0 auto 3%;
+	padding: 1% 0;
+	font-size:6vw; 
+	font-weight: normal; 
+	color:#fff; 
+	background: rgba(63,150,228,0.75);
+	border-radius: 30px;
+}
+.h3large{ font-size:8vw; }
+.plarge{ font-size:7.5vw; }
+
+.twitter_small { color:#0dc8ff; font-size:4vw;}
+.lilarge { font-weight: bold; font-size:5vw; }
+
+/*sp,pcで表示切り替え*/
+.pc { display: none; }
+.sp { display: block; }
+
+
+.illust .large{
+	font-size:4vw;
+}
+
+.illust .small{
+	width:100%;
+	margin:1% 0 0;
+	font-size:1.5vw;
+	transform: scale(1);
+}
+
+}
